@@ -1,4 +1,4 @@
-# Family-Support-Ticket-System *(ALL sections will be updated as the project moves on)
+# Family-Support-Ticket-System (ALL sections will be updated as the project moves on)
 
 This project is an support ticket system designed to help me organize issues reported by users, which would be my family. The system allows users to submit tickets describing their issues, and support admins (me) can then view and respond to these tickets. The target users are not necessarily tech-savvy, so the interface should be straightforward and user-friendly.
 
