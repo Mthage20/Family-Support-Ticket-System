@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{3C851034-6C14-4322-AEB8-3FD7F0572905}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FamilyTicketSupportSystem PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Tickets.cs">
+    <Files>
+      <File FileName="Program.cs" Line="11" Column="57" />
+      <File FileName="MyDbContext.cs" Line="2" Column="37" />
+      <File FileName="Models/Tickets.cs" Line="1" Column="1" />
+      <File FileName="Models/Users.cs" Line="8" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FamilyTicketSupportSystem" expanded="True">
+            <Node name="FamilyTicketSupportSystem">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True">
+                  <Node name="Microsoft.EntityFrameworkCore.Tools" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="DbContexts" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
