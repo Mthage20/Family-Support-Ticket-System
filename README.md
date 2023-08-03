@@ -7,9 +7,9 @@ This project is an support ticket system designed to help me organize issues rep
 
 The project uses the following technologies:
 
-- Frontend: React.js for the web interface, React Native for the mobile application.
-- Backend: Node.js with Express.js for the server.
-- Database: MySQL.
+- Frontend: .
+- Backend: C#.
+- Database: MySQL server & workbench.
 
 
 ## Key Features
@@ -39,21 +39,6 @@ The project uses the following technologies:
 - Dashboard: Admins can access a dashboard that provides a quick overview of the current state of tickets.
 
 ## Architectural Design
-
-### Server
-
-I am using Node.js and Express.js for the server. Here's a high-level plan:
-
-1. Install Node.js and npm.
-2. Initialize the project with npm, creating a `package.json` file.
-3. Install Express.js as a dependency.
-4. Create the server in a JavaScript file (e.g., `server.js`), defining a port and setting up a basic route for testing.
-5. Run the server and verify it's working correctly.
-6. Set up middleware for tasks like parsing JSON request bodies and handling errors.
-7. Define API endpoints for handling different types of requests at different URLs.
-8. Implement a system for authenticating users and controlling access to API endpoints.
-9. Set up a connection to the MySQL database and write queries to fetch, insert, update, and delete data.
-10. Handle and report errors, possibly with a global error handler.
 
 ### Database Schema
 
@@ -129,28 +114,18 @@ Here are the API endpoints:
 
 Based on the features, database schema, and API endpoints these are the middleware functions i will likely need: 
 
-- Body Parser: This middleware is used to parse incoming request bodies. I will need this to handle JSON payloads in the POST and PUT requests. I could use the `express.json()` middleware for this.
-- CORS Middleware: If my frontend and backend are hosted on different domains, I will need to handle Cross-Origin Resource Sharing (CORS). I could use the `cors` package for this.
-- Authentication Middleware: This middleware will verify the token in the Authorization header of incoming requests and attach the user's information to the request object. This is necessary for protecting routes that require authentication.
-- Error Handling Middleware: This middleware will catch any errors (at least i will try to) that occur during the execution of the route handlers and send an appropriate response to the client. This will be probably be placed at the end of my middleware stack.
-- Data Validation Middleware: This middleware will validate the data in incoming requests (e.g., checking that required fields are present in a POST request). I could use packages like `joi` or `express-validator` for this.
-- File Upload Middleware: Since users can attach files to their tickets, I will need middleware to handle file uploads. I could use packages like `multer` for this.
+- Authentication Middleware
+- Error Handling Middleware
+- Data Validation Middleware
+- File Upload Middleware: Since users can attach files to their tickets, I will need middleware to handle file uploads
 
 ## Authentication and Authorization
 
 ### Authentication
 
-I will be using JSON Web Tokens (JWT) for authentication. Here's how it applies to the application:
-
-- When a user registers or logs in (via the `POST /auth/register` and `POST /auth/login` endpoints), I will need to verify their credentials. If the credentials are valid, generate a JWT that includes the user's ID and role, and send this token back to the client.
-- The client will then include this token in the Authorization header of future requests. I will need to set up middleware (using a package like `express-jwt`) to validate this token for protected routes.
-- Passwords should be hashed before being stored in the database. I could use a package like `bcrypt` for this.
-
 ### Authorization
 
 I will be using role-based authorization. Here's how it applies to the application:
-
-- The user's role (user or admin) is included in their JWT. When the server receives a request, it should check the role in the JWT to determine if the user is allowed to perform the requested action.
 
 Admins should be able to:
 
