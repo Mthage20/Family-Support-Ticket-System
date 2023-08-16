@@ -6,7 +6,7 @@ namespace FamilyTicketSupportSystem.Models
     public class Tickets
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Code-first måde at skrive auto-increment
         public int Id { get; set; }
 
     }
