@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NLaq1Ix1DMOHXeU98KQiju3EWJz6U1Mlbm26cJk0U/iiS6wWGUhtRwjM2Hvb1MX5auXdwqDkV2Z6oviA8P+jtw==",
+  "dgSpecHash": "iCcog2DHM003ME835JFWZLc8gppsX2/Li2zPi6TZXqHfGnflzF+7cCTHKnFij9VpJo4V7fFzIhE0EcSU30HsdQ==",
   "success": true,
   "projectFilePath": "/Users/markusft/Documents/GitHub/Family-Support-Ticket-System/FamilyTicketSupportSystem.csproj",
   "expectedPackageFiles": [
-    "/Users/markusft/.nuget/packages/microsoft.entityframeworkcore/7.0.9/microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
-    "/Users/markusft/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.9/microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
-    "/Users/markusft/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.9/microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",
+    "/Users/markusft/.nuget/packages/microsoft.entityframeworkcore/7.0.10/microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
+    "/Users/markusft/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.10/microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
+    "/Users/markusft/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.10/microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
     "/Users/markusft/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.2/microsoft.entityframeworkcore.relational.7.0.2.nupkg.sha512",
     "/Users/markusft/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/Users/markusft/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
